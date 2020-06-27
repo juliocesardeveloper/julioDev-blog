@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+body {
+    background: #f7fff7;
+    font-family: 'Baloo 2', cursive;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+a {
+    text-decoration: none;
+    display: inline;
+    color: #1e1e24;
+}
+header {
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+header .header-icons-container {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: #5863f8;
+}
+header .header-icons-container .icons{
+    width: 300px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-self: end;
+    margin-right: 50px;
+}
+.icons a {
+    width: 35px;
+    height: 35px;
+}
+.icons img {
+    width: 35px;
+}
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+nav .nav-logo-container {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+nav .nav-logo-container img {
+    width: 180px;
+}
+nav .profile-link {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50px;
+    font-weight: bold;
+}nav .profile-link a {
+    color: #1e1e24;
+    border-bottom: 1px solid #1e1e24;
+}
+
+.section-main-container {
+    background: #1e1e24;
+    color: #f7fff7;
+    display: grid;
+    grid-template-rows: 400px 1fr;
+
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    
+}
+.section-title-container {
+    width: 800px;
+    text-align: center;
+    align-self: flex-end;
+}
+.section-title-container h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+.section-button-container {
+    justify-self: center;
+    align-self: flex-start;
+}
+.section-button-container button {
+    background-color: #5863f8;
+    color: #f7fff7;
+    font-family: 'Baloo 2', cursive;
+    font-size: 30px;
+    
+    width: 200px;
+    padding: 10px 0;
+    border-radius: 2px;
+    border-style: none;
+    outline: none;
+}
+.section-button-container button:hover {
+    background-color: #5e4ae3;
+    cursor: pointer;
+}
