@@ -5,17 +5,20 @@ body {
     font-family: 'Baloo 2', cursive;
     margin: 0;
     padding: 0;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
 }
 a {
     text-decoration: none;
     display: inline;
     color: #1e1e24;
 }
+.home-body {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 header {
     width: 100%;
     height: 140px;
@@ -105,4 +108,42 @@ nav .profile-link {
 .home-main-button:hover {
     background-color: #5e4ae3;
     cursor: pointer;
+}
+
+.posts-main {
+    display: grid;
+}
+.posts-news-container {
+    background-color: #c4c8fd;
+    padding: 0 50px 40px;
+}
+.posts-main-new {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+.posts-news-img-container {
+    grid-column: 1;
+}
+.posts-news-img-container img {
+    width: 85%;
+}
+.posts-news-info-container {
+    grid-column: 2;
+}
+.posts-news-info-container p {
+    margin-bottom: 35px;
+}
+.blog-posts-container {
+    padding: 0 50px 40px;
+}
+.blog-posts-container h3 {
+    border-bottom: 2px solid #c4c8fd;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.posts-button {
+    border: 2px solid #9da3fb;
+    padding: 10px 15px;
+    font-size: 12px;
 }
