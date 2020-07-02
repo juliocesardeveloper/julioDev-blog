@@ -2,4 +2,4 @@
 Proyecto del Curso Práctico de Maquetación en CSS
 
 ## Link al proyecto:
-[Google search clone]()
+[Google search clone](https://juliocesardeveloper.github.io/julioDev-blog/)
