@@ -178,3 +178,31 @@ footer a {
 footer a:hover {
     color: #f7fff7;
 }
+
+.blogpost-img-container {
+    padding: 0 50px 40px;
+
+}
+.blogpost-img-container img {
+    width: 100%;
+}
+.blogpost-main-container {
+    padding: 0 50px 40px;
+}
+.blogpost-main-container h3 {
+    border-bottom: 1px solid #c4c8fd;
+    padding-bottom: 20px;
+}
+.blogpost-main-container article h1 {
+    font-size: 35px;
+}
+.contact-main-container {
+    background-color: #c4c8fd;
+    grid-template-columns: 1fr 1fr;
+}
+.contact-main-container__left {
+    grid-column: 1;
+}
+.contact-main-container__right {
+    grid-column: 2;
+}
